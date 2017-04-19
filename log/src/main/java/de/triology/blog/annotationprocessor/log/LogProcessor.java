@@ -21,6 +21,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
+
 package de.triology.blog.annotationprocessor.log;
 
 import java.util.Set;
@@ -40,7 +42,7 @@ public class LogProcessor extends AbstractProcessor {
                 processingEnv.getMessager().printMessage(Diagnostic.Kind.NOTE, "found @Log at " + element);
             }
         }
-      return false;
+      	return true;
     }
 
 }
