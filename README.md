@@ -1,21 +1,6 @@
-# annotation-processors: Part 1
+# annotation-processors
 
-An example on how to use Java Annotation Processors for with plain **javac**. To test the example, you will need an installed JDK 8.
+Examples on how to use Java Annotation Processors. The examples are located in separate branches:
 
-Compile the Annotation Processor:
-
-```
-javac –cp . -proc:none de/triology/blog/annotationprocessor/log/*.java
-```
-
-Compile the Hello class:
-
-```
-javac –cp . de/triology/blog/annotationprocessor/sample/Hello.java
-```
-
-Durring the compilation of the Hello class, you should see an output from the Annptation Prozessor like the following:
-
-```
-Note: found @Log at de.triology.blog.annotationprocessor.sample.Hello
-```
+* simple usage with plain **javac** ([part-1](https://github.com/triologygmbh/annotation-processors/tree/part-1))
+* simple usage with **maven** ([maven](https://github.com/triologygmbh/annotation-processors/tree/part-1-maven))
