@@ -1,10 +1,6 @@
-# annotation-processors
+# annotation-processors: Part 1
 
-An example on how to use Java Annotation Processors.
-
-## Part 1
-
-The source folder **part-1** contains an intro example for the use of Java Annotation Processors. To test the example, you will need an installed JDK 8.
+An example on how to use Java Annotation Processors for with plain **javac**. To test the example, you will need an installed JDK 8.
 
 Compile the Annotation Processor:
 
