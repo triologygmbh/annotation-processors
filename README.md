@@ -14,7 +14,7 @@ Compile the Hello class:
 javac -cp . de/triology/blog/annotationprocessor/sample/Hello.java
 ```
 
-Durring the compilation of the Hello class, you should see an output from the Annptation Prozessor like the following:
+Durring the compilation of the Hello class, you should see an output from the Annotation Prozessor like the following:
 
 ```
 Note: found @Log at de.triology.blog.annotationprocessor.sample.Hello
